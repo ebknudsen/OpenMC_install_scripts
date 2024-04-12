@@ -23,7 +23,7 @@ export LOCAL_INSTALL_PREFIX
 echo "Compiled & installed openmc, done."
 
 echo "Running test script..."
-python test_openmc.py
+python3 test_openmc.py
 rm *.xml
 rm *.h5
 
